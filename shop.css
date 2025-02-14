@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.offer-bar {
+  background-color: black;
+  color: white;
+  text-indent: 40px;
+  /* margin: 0px; */
+  height: 25px;
+  font-size: 8px;
+  align-content: center;
+}
+
+.container1 {
+  background-color: #d9d9da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  text-indent: 40px; 
+  letter-spacing: 15px;
+}
+
+.maincontainer {
+  background-color: rgb(232, 242, 251);
+  padding: 20px;
+}
+
+.iconcontainer {
+  display: flex;
+  gap: 15px;
+  padding-right: 70px;
+}
+
+.icon img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 10px;
+  width: auto;  
+  /* padding: 5px 20px 0 20px; */
+  /* margin: top right bottom left */
+}
+
+.dropdown-item {
+  flex: 0.5; 
+  text-align: center; 
+}
+
+.dropdown-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;  
+}
+
+.clothing .dropdown-content {
+  display: flex;
+}
+
+.dropdown-content {
+  display: flex;
+  align-items: flex-start;  
+  gap: 50px; 
+  background-color: white;
+  justify-content: space-between; 
+  /* margin: 0 10px 0 10px; */
+  /* margin: top right bottom left */
+  /* padding: 150px; */
+}
+
+.submenu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.submenu {
+  margin-top: 10px;
+  text-align: left;
+  /* margin: 0 10px 0 10px; */
+}
+
+.submenu-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  /* padding: 8px 0; */
+  margin: 0 0 0 10px;
+  /* margin: top right bottom left */
+}
+
+/* Submenu Content */
+.submenu-content {
+  display: block;
+  margin: 0 0 0 20px;
+  /* margin: top right bottom left */
+}
+
+.submenu-content a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.submenu-content a:hover {
+  color: #007bff;
+}
+
+.image-container img {
+  display: flex;
+  width: 100%;
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin: 20px 20px 0 0;
+  /* margin: top right bottom left */
+}
